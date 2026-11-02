@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Email Echo Lite</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <p class="mark"><a href="index.html">Email Echo Lite</a></p>
+    <nav><a href="index.html">Home</a></nav>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated November 1, 2026</p>
+
+  <p>Email Echo Lite ("Echo", "we") is a shared support inbox with optional AI-drafted replies. This policy explains what we collect when you use Echo, why, and what control you have over it.</p>
+
+  <h2>Information we collect</h2>
+  <ul>
+    <li><strong>Account information.</strong> When you sign in with Google we receive your name, email address and Google account ID. We use them to create your account and workspace.</li>
+    <li><strong>Gmail data.</strong> When you connect a mailbox, Echo uses the Gmail API (<code>gmail.modify</code>) to read messages and keep the inbox in sync. We store the cleaned text of messages, their sender, recipients, subject and dates. We do not store attachments or raw message files.
+      <ul>
+        <li>Threads from the last 30 days become your team's inbox.</li>
+        <li>Past conversations that contain a reply from your business are used to build a private reference library for your workspace, so drafts match how your team writes.</li>
+      </ul>
+    </li>
+    <li><strong>Gmail access tokens.</strong> The token that lets Echo access your mailbox is stored encrypted, in a secrets vault, and is never shown to anyone.</li>
+    <li><strong>Usage information.</strong> Basic records such as last sign-in time and draft counts, used to run the service and enforce plan limits.</li>
+  </ul>
+
+  <h2>How we use it</h2>
+  <ul>
+    <li>To show, search and sync your team's inbox.</li>
+    <li>To generate reply drafts for your workspace when you ask for them. You review every draft, and nothing is sent without action from your team.</li>
+    <li>To send you service emails, such as "import complete" or a warning before inactive data is deleted.</li>
+  </ul>
+  <p>Each workspace's data is used only for that workspace. Your emails are never used to draft replies for any other business.</p>
+
+  <h2>Google user data: Limited Use</h2>
+  <p>Email Echo Lite's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. In particular:</p>
+  <ul>
+    <li>We use Gmail data only to provide and improve the user-facing features of Echo described above.</li>
+    <li>We do not sell Gmail data, and we do not use or transfer it for advertising.</li>
+    <li>We do not use Gmail data to train general-purpose AI models.</li>
+    <li>No person reads your Gmail data unless you give us permission (for example, to help with a support request), it is needed for security or abuse investigation, or the law requires it.</li>
+  </ul>
+
+  <h2>Service providers</h2>
+  <p>We use a small number of providers to run Echo. Each one processes data only on our behalf:</p>
+  <ul>
+    <li><strong>Supabase</strong> hosts our database, authentication and background jobs, in the United States. Search indexing of your messages also runs inside Supabase.</li>
+    <li><strong>Anthropic</strong> provides the AI model that writes drafts. When a draft is requested, the relevant conversation and reference examples are sent to Anthropic's API to write it. Anthropic does not train its models on this data.</li>
+    <li><strong>Google</strong> provides sign-in and the Gmail API.</li>
+  </ul>
+
+  <h2>Retention and deletion</h2>
+  <ul>
+    <li>Inbox threads cover a rolling 30-day window.</li>
+    <li>If nobody in a workspace signs in for 180 days, we delete that workspace's threads, reference library, search indexes and stored Gmail tokens. We send warning emails before this happens.</li>
+    <li>You can ask us to delete your workspace and all its data at any time by emailing the address below. We will confirm when it is done.</li>
+    <li>You can revoke Echo's access to your Gmail at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Echo then stops syncing that mailbox right away.</li>
+  </ul>
+
+  <h2>Security</h2>
+  <p>Data is encrypted in transit and at rest. Database access rules keep each workspace's data separate, and access tokens are kept in an encrypted vault.</p>
+
+  <h2>Children</h2>
+  <p>Echo is a business tool and is not intended for anyone under 16.</p>
+
+  <h2>Changes</h2>
+  <p>If we change this policy, we will update the date above. For significant changes we will also notify workspace owners by email.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or deletion requests: <a href="mailto:carterrocks64@gmail.com">carterrocks64@gmail.com</a></p>
+
+  <footer>© 2026 Email Echo Lite · <a href="index.html">Home</a></footer>
+</main>
+</body>
+</html>
